@@ -1,0 +1,67 @@
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ---------- Xcode: user state ----------
+# Keep xcshareddata/ (shared schemes) — it is committed on purpose.
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# ---------- Xcode: build output ----------
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.app
+*.xcarchive
+*.xcresult
+*.o
+*.lo
+*.la
+
+# ---------- Swift Package Manager ----------
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/configuration/
+Packages/
+# Package.resolved is COMMITTED — it pins dependency versions so a
+# checkout builds the same way months later. Do not ignore it.
+
+# ---------- Playgrounds ----------
+timeline.xctimeline
+playground.xcworkspace
+
+# ---------- Signing & secrets (never commit) ----------
+*.p12
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+Secrets.swift
+Secrets.plist
+APIKeys.swift
+*.xcconfig.local
+
+# ---------- Tooling ----------
+fastlane/report.xml
+fastlane/screenshots/**/*.png
+fastlane/test_output
+Pods/
+Carthage/Build/
+.netrc
+
+# ---------- Editors ----------
+.vscode/
+.idea/
+*.swp
